@@ -1,0 +1,15 @@
+
+
+
+
+ol {
+    list-style-type: none;
+    counter-reset: elementcounter;
+    padding-left: 0;
+  }
+  
+  li:before {
+    content: "Step " counter(elementcounter) ": ";
+    counter-increment: elementcounter;
+    font-weight: bold;
+  }
