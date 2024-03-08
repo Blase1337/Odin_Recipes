@@ -1,5 +1,18 @@
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    border: solid 1px red;
+}
 
+.item {
+    border: solid 1px red;
+    flex: 0 0 48%; /* Adjust the percentage for margins/padding */
+    margin-bottom: 10px; /* Optional: margin between rows */
+    height: 100%;
+}
 
 
 
